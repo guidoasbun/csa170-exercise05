@@ -13,7 +13,7 @@ public class HalfString{
         
         System.out.print("Please enter an EVEN length string: ");
         
-        String inputString = input.nextLine();
+        String inputString = input.next();
         int stringLength = inputString.length();
         int halfString = stringLength / 2;
         String newString = inputString.substring(0,(inputString.length()/2));

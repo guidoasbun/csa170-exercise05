@@ -13,7 +13,7 @@ public class WithoutEnd{
         
         System.out.print("Please enter a string: ");
         
-        String inputString = input.nextLine();
+        String inputString = input.next();
         
         System.out.print(inputString.substring(1, (inputString.length()-1)));
       
