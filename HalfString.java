@@ -16,8 +16,8 @@ public class HalfString{
         String inputString = input.nextLine();
         int stringLength = inputString.length();
         int halfString = stringLength / 2;
-        String newString = inputString.substring(0,halfString);
-;        
+        String newString = inputString.substring(0,(inputString.length()/2));
+       
         System.out.println(newString);
       
     }
