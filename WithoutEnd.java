@@ -13,9 +13,9 @@ public class WithoutEnd{
         
         System.out.print("Please enter a string: ");
         
-        String inputString = input.next();
+        String inputStr = input.next();
         
-        System.out.print(inputString.substring(1, (inputString.length()-1)));
+        System.out.print(inputStr.substring(1, (inputStr.length()-1)));
       
     }
 }

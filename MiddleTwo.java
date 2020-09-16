@@ -7,18 +7,16 @@
 */ 
 
 import java.util.Scanner;
-public class HalfString{
+public class MiddleTwo{
     public static void main(String [] args){
         Scanner input = new Scanner(System.in);
         
-        System.out.print("Please enter an EVEN length string: ");
-        
+        System.out.print("Please enter a string: ");
         String inputStr = input.next();
         int strLength = inputStr.length();
-        int halfStr = strLength / 2;
-        String newStr = inputStr.substring(0,(inputStr.length()/2));
-       
-        System.out.println(newStr);
-      
+        String newStr = inputStr.substring(strLength/2-1,strLength/2+1);
+        
+        System.out.print(newStr);
+        
     }
 }

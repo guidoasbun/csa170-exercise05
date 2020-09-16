@@ -3,7 +3,7 @@
 *   CS A170 
 *   15-September-2020     
 * 
-*   Exercise 04
+*   Exercise 05
 */ 
 
 import java.util.Scanner;
